@@ -1,5 +1,5 @@
 from django.apps import AppConfig
 
 
-class AlgoCollectionsConfig(AppConfig):
-    name = 'algo_collections'
+class AlgoCollectionConfig(AppConfig):
+    name = 'AlgoCollection'

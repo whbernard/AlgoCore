@@ -15,7 +15,7 @@ def tsne(X, n_components=2, perplexity=30, learning_rate=200):
     return embeded
 
 
-def umap(X):
-    _umap = UMAP()
+def umap(X, n_components=2):
+    _umap = UMAP(n_components=n_components)
     embedded = _umap.fit_transform(X)
     return embedded
